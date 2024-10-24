@@ -2,9 +2,74 @@
 <html>
     <head>
         <title>Home Page</title>
+        <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+        <link href="style.css" rel="stylesheet" type="text/CSS">
         
-    </head>
+        </head>
     <body>
-        
+      
+    <h1>The Image Slide Show</h1>
+
+        <!-- This is the Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Images with numbers and captions will be displayed -->
+    <div class="mySlides fade">
+        <!--image 1 out of 5-->
+      <div class="numbertext">1 / 5</div>
+      <img src="img1.jpg" id="images">
+      <div class="text"></div>
+    </div>
+     <!--image 2 out of 5-->
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 5</div>
+      <img src="img2.jpg" id="images">
+      <div class="text"></div>
+    </div>
+      <!--image 3 out of 5-->
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 5</div>
+      <img src="img3.jpg" id="images">
+      <div class="text"></div>
+    </div>
+       <!--image 4 out of 5-->
+    <div class="mySlides fade">
+        <div class="numbertext">4 / 5</div>
+        <img src="img4.jpg" id="images">
+        <div class="text"></div>
+      </div>
+         <!--image 5 out of 5-->
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 5</div>
+        <img src="img5.png" id="images">
+        <div class="text"></div>
+      </div>
+  
+     <!-- Previous button -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <!-- Next button -->
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+  </div>
+  <!-- Latest compiled and minified CSS 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+jQuery library 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+Latest compiled JavaScript 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+<!--JS file-->
+<script scr="script.js"></script>
     </body>
 </html>
